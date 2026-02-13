@@ -38,12 +38,12 @@ public abstract class MultiplesOf3or5AbstractTest {
             "95_935, 2_147_472_998",
             "-95_934, 0"
     })
-    public void multiply3or5Test(int number, int sum) {
+    void multiply3or5Test(int number, int sum) {
         assertEquals(sum, multiplesOf3or5(number));
     }
 
     @Test
-    public void multiply3or5_IllegalArgumentException() {
+    void multiply3or5_IllegalArgumentException() {
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class,
                 () -> multiplesOf3or5(MAX_NUMBER));
 
