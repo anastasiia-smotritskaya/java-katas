@@ -4,6 +4,8 @@
 - `Collectors.joining(", ")` — объединить строки
 - `map(String::toLowerCase)` — привести к нижнему регистру
 - `filter(Objects::nonNull)` — убрать null
+- 
+- `IntStream.range(0, number)` — создает stream с числами от 0 до number
 
 ## Optional
 - `orElse("default")` — значение или дефолт
