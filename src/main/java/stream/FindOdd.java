@@ -6,7 +6,6 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import static java.util.Locale.filter;
 import static utils.ErrorMessages.NO_NUMBER_WITH_ODD_COUNT;
 
 /**
@@ -21,7 +20,7 @@ public class FindOdd {
      *
      * @param a массив, в котором мы ищем число, повторяющееся нечетное количество раз
      * @return int число, которое повторяется в массиве нечетное количество раз
-     * @code {int number = findIt_cycle(new int[]{1, 1, 2});}  // 2
+     * {@code int number = findIt_cycle(new int[]{1, 1, 2});}  // 2
      */
     public static int findIt_cycle(int[] a) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -44,12 +43,12 @@ public class FindOdd {
      *
      * @param a массив, в котором мы ищем число, повторяющееся нечетное количество раз
      * @return int число, которое повторяется в массиве нечетное количество раз
-     * @code {int number = findIt_stream(new int[]{1, 1, 2});}  // 2
+     * {@code int number = findIt_stream(new int[]{1, 1, 2});}  // 2
      * Arrays.stream(a) - преобразует массив int[] в поток IntStream
-     * boxed() - превращает IntStream (примитивы) в Stream<Integer> (объекты),
+     * boxed() - превращает IntStream (примитивы) в Stream(Integer) (объекты),
      * т.к. groupingBy работает только с объектами
      * Function.identity() - говорит: «ключом будет сам элемент» (x → x)
-     * entrySet().stream() - Берём все записи из мапы (Set<Map.Entry<Integer, Long>>) и превращаем в поток.
+     * entrySet().stream() - Берём все записи из мапы (Set(Map.Entry(Integer, Long))) и превращаем в поток.
      * Теперь каждый элемент потока — это пара (число, количество).
      * filter(entry -> entry.getValue() % 2 == 1) - Оставляем только те записи, у которых количество нечётное.
      * map(Map.Entry::getKey) - Из каждой записи берём только ключ (само число).

@@ -6,6 +6,7 @@
 - `filter(Objects::nonNull)` — убрать null
 - 
 - `IntStream.range(0, number)` — создает stream с числами от 0 до number
+- `Arrays.stream(array)` - создает stream из массива
 
 ## Optional
 - `orElse("default")` — значение или дефолт
