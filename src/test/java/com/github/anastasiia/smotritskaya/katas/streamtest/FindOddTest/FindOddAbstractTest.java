@@ -1,5 +1,6 @@
-package streamtest.FindOddTest;
+package com.github.anastasiia.smotritskaya.katas.streamtest.FindOddTest;
 
+import com.github.anastasiia.smotritskaya.katas.stream.FindOdd;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
@@ -16,8 +17,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * Абстрактный тестовый класс для всех реализаций findIt
  * Наследники должны реализовать findIt()
  *
- * @see stream.FindOdd#findIt_cycle(int[])
- * @see stream.FindOdd#findIt_stream(int[])
+ * @see FindOdd#findIt_cycle(int[])
+ * @see FindOdd#findIt_stream(int[])
  * @see FindOddCycleTest
  * @see FindOddStreamTest
  */

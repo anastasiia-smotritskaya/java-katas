@@ -1,5 +1,6 @@
-package streamtest.MultiplesOf3or5Test;
+package com.github.anastasiia.smotritskaya.katas.streamtest.MultiplesOf3or5Test;
 
+import com.github.anastasiia.smotritskaya.katas.stream.MultiplesOf3or5;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
@@ -10,14 +11,14 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static utils.ErrorMessages.SUM_GREATER_THAN_MAX;
+import static com.github.anastasiia.smotritskaya.katas.utils.ErrorMessages.SUM_GREATER_THAN_MAX;
 
 /**
  * Абстрактный тестовый класс для всех реализаций multiplesOf3or5
  * Наследники должны реализовать multiplesOf3or5()
  *
- * @see stream.MultiplesOf3or5#multiplesOf3or5_cycle(int)
- * @see stream.MultiplesOf3or5#multiplesOf3or5_stream(int)
+ * @see MultiplesOf3or5#multiplesOf3or5_cycle(int)
+ * @see MultiplesOf3or5#multiplesOf3or5_stream(int)
  * @see MultiplesOf3or5CycleTest
  * @see MultiplesOf3or5StreamTest
  */

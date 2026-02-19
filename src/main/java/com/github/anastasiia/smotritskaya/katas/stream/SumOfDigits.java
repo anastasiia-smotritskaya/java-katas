@@ -1,8 +1,8 @@
-package stream;
+package com.github.anastasiia.smotritskaya.katas.stream;
 
 import java.util.Arrays;
 
-import static utils.ErrorMessages.NON_POSITIVE_NUMBER;
+import static com.github.anastasiia.smotritskaya.katas.utils.ErrorMessages.NON_POSITIVE_NUMBER;
 
 /**
  * Возвращает рекурсивную сумму цифр в числе.

@@ -1,16 +1,17 @@
-package streamtest.FindOddTest;
+package com.github.anastasiia.smotritskaya.katas.streamtest.FindOddTest;
 
+import com.github.anastasiia.smotritskaya.katas.stream.FindOdd;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 
-import static stream.FindOdd.findIt_stream;
+import static com.github.anastasiia.smotritskaya.katas.stream.FindOdd.findIt_stream;
 
 /**
  * Тестирование метода findIt_stream
  * (реализация findIt через stream api)
  *
- * @see stream.FindOdd#findIt_stream(int[])
+ * @see FindOdd#findIt_stream(int[])
  * @see FindOddAbstractTest
  */
 @Epic("Java katas")

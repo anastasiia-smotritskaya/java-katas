@@ -1,16 +1,17 @@
-package streamtest.SumOfDigitsTest;
+package com.github.anastasiia.smotritskaya.katas.streamtest.SumOfDigitsTest;
 
+import com.github.anastasiia.smotritskaya.katas.stream.SumOfDigits;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 
-import static stream.SumOfDigits.sumOfDigits_stream;
+import static com.github.anastasiia.smotritskaya.katas.stream.SumOfDigits.sumOfDigits_stream;
 
 /**
  * Тестирование метода sumOfDigits_stream
  * (реализация sumOfDigits через stream api)
  *
- * @see stream.SumOfDigits#sumOfDigits_stream(int)
+ * @see SumOfDigits#sumOfDigits_stream(int)
  * @see SumOfDigitsAbstractTest
  */
 @Epic("Java katas")

@@ -1,17 +1,17 @@
-package streamtest.SumOfDigitsTest;
+package com.github.anastasiia.smotritskaya.katas.streamtest.SumOfDigitsTest;
 
+import com.github.anastasiia.smotritskaya.katas.stream.SumOfDigits;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
-import streamtest.MultiplesOf3or5Test.MultiplesOf3or5AbstractTest;
 
-import static stream.SumOfDigits.sumOfDigits_cycle;
+import static com.github.anastasiia.smotritskaya.katas.stream.SumOfDigits.sumOfDigits_cycle;
 
 /**
  * Тестирование метода sumOfDigits_cycle
  * (реализация sumOfDigits через цикл do-while)
  *
- * @see stream.SumOfDigits#sumOfDigits_cycle(int)
+ * @see SumOfDigits#sumOfDigits_cycle(int)
  * @see SumOfDigitsAbstractTest
  */
 @Epic("Java katas")

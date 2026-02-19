@@ -1,8 +1,8 @@
-package stream;
+package com.github.anastasiia.smotritskaya.katas.stream;
 
 import java.util.stream.IntStream;
 
-import static utils.ErrorMessages.SUM_GREATER_THAN_MAX;
+import static com.github.anastasiia.smotritskaya.katas.utils.ErrorMessages.SUM_GREATER_THAN_MAX;
 
 /**
  * Возвращает сумму всех чисел, кратных 3 или 5, которые меньше переданного числа.

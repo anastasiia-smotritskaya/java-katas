@@ -1,5 +1,6 @@
-package streamtest.SumOfDigitsTest;
+package com.github.anastasiia.smotritskaya.katas.streamtest.SumOfDigitsTest;
 
+import com.github.anastasiia.smotritskaya.katas.stream.SumOfDigits;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
@@ -10,14 +11,14 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static utils.ErrorMessages.NON_POSITIVE_NUMBER;
+import static com.github.anastasiia.smotritskaya.katas.utils.ErrorMessages.NON_POSITIVE_NUMBER;
 
 /**
  * Абстрактный тестовый класс для всех реализаций sumOfDigits
  * Наследники должны реализовать sumOfDigits()
  *
- * @see stream.SumOfDigits#sumOfDigits_cycle(int)
- * @see stream.SumOfDigits#sumOfDigits_stream(int)
+ * @see SumOfDigits#sumOfDigits_cycle(int)
+ * @see SumOfDigits#sumOfDigits_stream(int)
  * @see SumOfDigitsCycleTest
  * @see SumOfDigitsStreamTest
  */

@@ -1,11 +1,11 @@
-package strings;
+package com.github.anastasiia.smotritskaya.katas.strings;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
-import static utils.ErrorMessages.NULL_OR_EMPTY_STRING;
+import static com.github.anastasiia.smotritskaya.katas.utils.ErrorMessages.NULL_OR_EMPTY_STRING;
 
 /**
  * Your order, please

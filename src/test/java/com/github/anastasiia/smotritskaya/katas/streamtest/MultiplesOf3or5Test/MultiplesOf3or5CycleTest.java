@@ -1,16 +1,17 @@
-package streamtest.MultiplesOf3or5Test;
+package com.github.anastasiia.smotritskaya.katas.streamtest.MultiplesOf3or5Test;
 
+import com.github.anastasiia.smotritskaya.katas.stream.MultiplesOf3or5;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 
-import static stream.MultiplesOf3or5.multiplesOf3or5_cycle;
+import static com.github.anastasiia.smotritskaya.katas.stream.MultiplesOf3or5.multiplesOf3or5_cycle;
 
 /**
  * Тестирование метода multiplesOf3or5_cycle
  * (реализация multiplesOf3or5 через цикл for)
  *
- * @see stream.MultiplesOf3or5#multiplesOf3or5_cycle(int)
+ * @see MultiplesOf3or5#multiplesOf3or5_cycle(int)
  * @see MultiplesOf3or5AbstractTest
  */
 @Epic("Java katas")

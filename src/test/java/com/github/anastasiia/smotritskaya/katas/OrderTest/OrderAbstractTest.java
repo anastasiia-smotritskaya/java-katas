@@ -1,5 +1,6 @@
-package stringstest.OrderTest;
+package com.github.anastasiia.smotritskaya.katas.OrderTest;
 
+import com.github.anastasiia.smotritskaya.katas.strings.Order;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
@@ -13,14 +14,14 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static utils.ErrorMessages.NULL_OR_EMPTY_STRING;
+import static com.github.anastasiia.smotritskaya.katas.utils.ErrorMessages.NULL_OR_EMPTY_STRING;
 
 /**
  * Абстрактный тестовый класс для всех реализаций order
  * Наследники должны реализовать order()
  *
- * @see strings.Order#order_cycle(String)
- * @see strings.Order#order_stream(String)
+ * @see Order#order_cycle(String)
+ * @see Order#order_stream(String)
  * @see OrderCycleTest
  * @see OrderStreamTest
  */

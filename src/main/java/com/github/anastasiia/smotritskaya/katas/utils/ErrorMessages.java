@@ -1,4 +1,4 @@
-package utils;
+package com.github.anastasiia.smotritskaya.katas.utils;
 
 public class ErrorMessages {
     // numbers

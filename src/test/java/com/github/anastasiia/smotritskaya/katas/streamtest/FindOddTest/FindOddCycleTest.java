@@ -1,16 +1,17 @@
-package streamtest.FindOddTest;
+package com.github.anastasiia.smotritskaya.katas.streamtest.FindOddTest;
 
+import com.github.anastasiia.smotritskaya.katas.stream.FindOdd;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 
-import static stream.FindOdd.findIt_cycle;
+import static com.github.anastasiia.smotritskaya.katas.stream.FindOdd.findIt_cycle;
 
 /**
  * Тестирование метода findIt_cycle
  * (реализация findIt через цикл for)
  *
- * @see stream.FindOdd#findIt_cycle(int[])
+ * @see FindOdd#findIt_cycle(int[])
  * @see FindOddAbstractTest
  */
 @Epic("Java katas")

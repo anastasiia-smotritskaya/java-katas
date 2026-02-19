@@ -1,4 +1,4 @@
-package stream;
+package com.github.anastasiia.smotritskaya.katas.stream;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import static utils.ErrorMessages.NO_NUMBER_WITH_ODD_COUNT;
+import static com.github.anastasiia.smotritskaya.katas.utils.ErrorMessages.NO_NUMBER_WITH_ODD_COUNT;
 
 /**
  * Возвращает число, которое повторяется в массиве нечетное количество раз
